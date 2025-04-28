@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import Transaction from './components/Transaction';
 import Dashboard from './components/Dashboard';
 import Budget from './components/Budget';
