@@ -60,6 +60,59 @@ Backend will run at: [http://localhost:5000](http://localhost:5000)
 
 ---
 
+## API Endpoints
+
+### Transactions
+
+- **Create a new transaction**
+  - `POST /api/transactions`
+  - Body: `{"amount": number, "description": string, "date": string, "category": string}`
+
+- **Get all transactions**
+  - `GET /api/transactions`
+
+- **Update a transaction**
+  - `PUT /api/transactions/:id`
+  - Body: `{"amount": number, "description": string, "date": string, "category": string}`
+
+- **Delete a transaction**
+  - `DELETE /api/transactions/:id`
+
+### Categories
+
+- **Create a new category**
+  - `POST /api/categories`
+  - Body: `{"name": string}`
+
+- **Get all categories**
+  - `GET /api/categories`
+
+- **Update a category**
+  - `PUT /api/categories/:id`
+  - Body: `{"name": string}`
+
+- **Delete a category**
+  - `DELETE /api/categories/:id`
+
+### Budgets
+
+- **Create a new budget**
+  - `POST /api/budgets`
+  - Body: `{"amount": number, "month": string, "year": number}`
+
+- **Get all budgets**
+  - `GET /api/budgets`
+
+- **Update a budget**
+  - `PUT /api/budgets/:id`
+  - Body: `{"amount": number, "month": string, "year": number}`
+
+- **Delete a budget**
+  - `DELETE /api/budgets/:id`
+
+---
+
+
 ## Features
 
 - Add new transactions (amount, description, date, category)
