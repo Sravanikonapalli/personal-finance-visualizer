@@ -55,7 +55,7 @@ Backend will run at: [http://localhost:5000](http://localhost:5000)
 
 ## Live Deployment
 
-- [Frontend Live Demo](https://vercel.com)
+- [Frontend Live Demo](https://personal-finance-visualizer-black.vercel.app/)
 - [Backend Live API](https://personal-finance-visualizer-mdlb.onrender.com)
 
 ---
