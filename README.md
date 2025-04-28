@@ -42,13 +42,13 @@ PORT=5000
 
 ```bash
 cd backend
-npm start
+node server.js
 
 cd ../frontend
 npm start
 ```
 
-Frontend will run at: [http://localhost:3000](http://localhost:3000)  
+Frontend will run at: [http://localhost:3001](http://localhost:3001)  
 Backend will run at: [http://localhost:5000](http://localhost:5000)
 
 ---
@@ -56,7 +56,7 @@ Backend will run at: [http://localhost:5000](http://localhost:5000)
 ## Live Deployment
 
 - [Frontend Live Demo](https://vercel.com)
-- [Backend Live API](https://render.com)
+- [Backend Live API](https://personal-finance-visualizer-mdlb.onrender.com)
 
 ---
 

@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5000'; 
+const BASE_URL = 'https://personal-finance-visualizer-mdlb.onrender.com'; 
 
 // Transactions
 export async function getTransactions() {
